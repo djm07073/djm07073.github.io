@@ -133,6 +133,20 @@ button :hover {
   height: 250px;
   object-fit: cover;
 }
+.home__toaster {
+  width: 159px;
+  height: 42px;
+}
+
+.home__link {
+  color: var(--color-text);
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  transition: color 0.3s ease-in-out;
+}
+.home__link:hover {
+  color: var(--color-accent);
+}
 
 .home__contact {
   display: inline-block;
@@ -152,7 +166,12 @@ button :hover {
   color: var(--color-accent);
 }
 /* About */
-
+.description__project {
+  display: flex;
+  flex-direction: row;
+}
+.description__project__link {
+}
 .jobs {
   text-align: start;
 }
